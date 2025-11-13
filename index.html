@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Corpus Co-Ed Sand League • Play. Meet. Chill. Repeat.</title>
+  <meta name="description" content="Corpus Christi's adult co-ed sand volleyball social league. 6-week pilot season at Dewey's Beer Garden. Register your team or as a free agent.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #e6f3ff; /* light blue */
+      --ink: #0a2856; /* dark navy */
+      --ink-2: #123a78;
+      --accent: #d90429; /* cherry red (for CTA hover) */
+      --card: #ffffff;
+      --muted: #5d7597;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+    a{color:var(--ink);text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+    header{position:sticky;top:0;background:rgba(230,243,255,.85);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid rgba(10,40,86,.08);z-index:50}
+    nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand img{width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid var(--ink)}
+    .navlinks a{margin-left:18px;font-weight:600}
+    .btn{display:inline-block;background:var(--ink);color:#fff;padding:12px 18px;border-radius:10px;font-weight:700;border:2px solid var(--ink);transition:transform .06s ease, background .2s ease, color .2s ease}
+    .btn:hover{transform:translateY(-1px);background:#fff;color:var(--ink)}
+    .btn.outline{background:transparent;color:var(--ink)}
+    .hero{padding:56px 0 32px;}
+    .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+    .card{background:var(--card);border:1px solid rgba(10,40,86,.08);border-radius:18px;padding:22px;box-shadow:0 8px 30px rgba(10,40,86,.06)}
+    h1{font-size:clamp(28px,3.6vw,44px);line-height:1.1;margin:10px 0}
+    h2{font-size:clamp(22px,2.6vw,30px);margin:8px 0 12px}
+    h3{margin:8px 0}
+    p{color:var(--ink)}
+    .muted{color:var(--muted)}
+    .list{margin:0;padding-left:18px}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .section{padding:28px 0}
+    .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .kpi{background:#fff;border:1px solid rgba(10,40,86,.08);border-radius:16px;padding:16px;text-align:center}
+    .kpi b{font-size:24px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:#fff;border:1px solid rgba(10,40,86,.12);font-weight:600}
+    footer{padding:34px 0;border-top:1px dashed rgba(10,40,86,.2);margin-top:24px}
+    .small{font-size:14px}
+    .sponsors{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+    .sponsors img{height:34px;opacity:.85;filter:grayscale(100%)}
+    .schedule{width:100%;border-collapse:collapse}
+    .schedule th,.schedule td{padding:10px;border-bottom:1px solid rgba(10,40,86,.1);text-align:left}
+    .tag{font-weight:700;color:var(--ink-2)}
+    @media (max-width:920px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <!-- Replace the src below with your logo file (e.g., /assets/logo.png) after you upload it to your repo -->
+          <img src="https://dummyimage.com/200x200/0a2856/e6f3ff.png&text=CCSL" alt="Corpus Co-Ed Sand League logo" />
+          <div>
+            <strong>Corpus Co-Ed Sand League</strong><br>
+            <span class="muted small">Play. Meet. Chill. Repeat.</span>
+          </div>
+        </div>
+        <div class="navlinks small">
+          <a href="#about">About</a>
+          <a href="#format">Format</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#register" class="btn">Register</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="grid">
+        <div class="card">
+          <span class="pill">Pilot Season • Corpus Christi, TX</span>
+          <h1>Adult Co‑Ed Sand Volleyball at Dewey’s Beer Garden</h1>
+          <p class="muted">6‑week social league designed for connection, competition‑lite, and weekly good vibes. Structured matches, standings, shirts, and a championship night.</p>
+          <div class="kpis">
+            <div class="kpi"><b>8</b><div class="muted small">Teams</div></div>
+            <div class="kpi"><b>6×6</b><div class="muted small">Co‑Ed Format</div></div>
+            <div class="kpi"><b>6 Weeks</b><div class="muted small">1 Night/Week</div></div>
+          </div>
+          <div class="cta-row">
+            <a class="btn" href="#register">Register Now</a>
+            <a class="btn outline" href="#details">Season Details</a>
+          </div>
+        </div>
+        <div class="card">
+          <h2>Where & When</h2>
+          <ul class="list">
+            <li><span class="tag">Venue:</span> Dewey’s Beer Garden • 2302 Rodd Field Rd</li>
+            <li><span class="tag">Nights:</span> Tuesdays or Thursdays (choose one)</li>
+            <li><span class="tag">Kickoff:</span> Pre‑season Mixer + Open Play (Week 0)</li>
+            <li><span class="tag">Game Slots:</span> 6:30p & 7:30p • Two courts</li>
+          </ul>
+          <p class="muted small">* Dewey’s provides the courts/space; league provides structure, refs, gear, and the party energy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="card">
+        <h2>About the League</h2>
+        <p>Corpus Co‑Ed Sand League is a community‑first, adult social sports league. Expect real teams, set schedules, referees, standings, shirts, and a fun championship night — all centered around Corpus’s beach vibe.</p>
+        <p class="muted">We welcome complete beginners through casual athletes. Bring friends or sign up solo — we’ll place free agents onto teams.</p>
+      </div>
+    </section>
+
+    <section id="format" class="section">
+      <div class="card" id="details">
+        <h2>Season Format</h2>
+        <ul class="list">
+          <li>Teams: <strong>8 teams</strong> • roster 6–8 players</li>
+          <li>Rules: <strong>6×6 co‑ed</strong>, best‑of‑3 sets to 21 (cap 25)</li>
+          <li>Schedule: 5 regular‑season weeks + playoffs (Week 6)</li>
+          <li>Courts: 2 courts • 2 matches per night (4 total)</li>
+          <li>Gear: Balls & basic equipment provided</li>
+          <li>Shirts: League shirts included for registered players</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="grid">
+        <div class="card">
+          <h2>Pricing</h2>
+          <ul class="list">
+            <li><strong>Team (6–8 players): $375</strong></li>
+            <li><strong>Free Agent (solo): $65</strong></li>
+            <li class="muted">Late team price: $400 (week‑of start)</li>
+          </ul>
+          <p class="muted small">Sponsors help keep pricing affordable. Interested in partnering? Email us below.</p>
+        </div>
+        <div class="card">
+          <h2>What You Get</h2>
+          <ul class="list">
+            <li>6 weeks of organized play w/ refs</li>
+            <li>League shirts (1 per player)</li>
+            <li>Standings & playoffs</li>
+            <li>Championship prizes & photo ops</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="register" class="section">
+      <div class="card">
+        <h2>Register</h2>
+        <p>Choose your path — bring a full squad, or sign up solo and we’ll place you on a team.</p>
+        <div class="cta-row">
+          <!-- Replace the # links below with your actual Google Form URLs -->
+          <a class="btn" href="#" target="_blank" rel="noopener">Team Sign‑Up Form</a>
+          <a class="btn outline" href="#" target="_blank" rel="noopener">Free‑Agent Sign‑Up</a>
+        </div>
+        <p class="muted small">Questions about payment or rosters? Email us and we’ll help you finalize details.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h2>Sponsors & Partners</h2>
+        <div class="sponsors">
+          <!-- Swap these placeholder logos with sponsor marks in your repo -->
+          <img src="https://dummyimage.com/200x60/0a2856/e6f3ff.png&text=Lazy+Beach" alt="Sponsor 1">
+          <img src="https://dummyimage.com/200x60/0a2856/e6f3ff.png&text=Nueces+Brewing" alt="Sponsor 2">
+          <img src="https://dummyimage.com/200x60/0a2856/e6f3ff.png&text=Dewey's" alt="Sponsor 3">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:corpuscoedsports@gmail.com">corpuscoedsports@gmail.com</a> • Instagram: <a href="https://instagram.com/" target="_blank" rel="noopener">@corpuscoedsports</a></p>
+        <p class="muted small">Media & partnerships welcome. We love working with local breweries, gyms, and community orgs.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container small muted">
+      © <span id="year"></span> Corpus Co‑Ed Sand League • Built for the pilot season • Corpus Christi, TX
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
